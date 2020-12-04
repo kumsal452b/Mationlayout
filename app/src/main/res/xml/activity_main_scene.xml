@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1000">
+       <KeyFrameSet>
+       </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:id="@+id/icon_0"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintTop_toBottomOf="@+id/icon_8"
+            motion:layout_constraintHorizontal_bias="0.498"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="168dp"
+            motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@+id/icon_0"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            motion:layout_constraintTop_toBottomOf="@+id/icon_8"
+            motion:layout_constraintHorizontal_bias="0.498"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="168dp" />
+        <Constraint
+            android:id="@+id/icon_9"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            motion:layout_constraintTop_toTopOf="@+id/icon_8"
+            android:visibility="invisible" />
+        <Constraint
+            android:id="@+id/icon_9"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:visibility="invisible"
+            motion:layout_constraintTop_toTopOf="@+id/icon_8" />
+        <Constraint
+            android:id="@+id/icon_8"
+            motion:layout_constraintEnd_toStartOf="@+id/icon_9"
+            motion:layout_constraintStart_toEndOf="@+id/icon_7"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            motion:layout_constraintTop_toTopOf="@+id/icon_7"
+            android:visibility="invisible" />
+        <Constraint
+            android:id="@+id/icon_8"
+            motion:layout_constraintEnd_toStartOf="@+id/icon_9"
+            motion:layout_constraintStart_toEndOf="@+id/icon_7"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:visibility="invisible"
+            motion:layout_constraintTop_toTopOf="@+id/icon_7" />
+        <Constraint
+            android:id="@+id/icon_7"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            motion:layout_constraintTop_toBottomOf="@+id/icon_4"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="45dp"
+            android:visibility="invisible" />
+        <Constraint
+            android:id="@+id/icon_7"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:visibility="invisible"
+            motion:layout_constraintTop_toBottomOf="@+id/icon_4"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="45dp" />
+        <Constraint
+            android:id="@+id/icon_1"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/icon_1"
+            android:layout_width="130dp"
+            android:layout_height="65dp"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/icon_2"
+            motion:layout_constraintEnd_toStartOf="@+id/icon_3"
+            motion:layout_constraintStart_toEndOf="@+id/icon_1"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@+id/icon_2"
+            motion:layout_constraintEnd_toStartOf="@+id/icon_3"
+            motion:layout_constraintStart_toEndOf="@+id/icon_1"
+            android:layout_width="130dp"
+            android:layout_height="65dp"
+            motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@+id/icon_3"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@+id/icon_4"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            motion:layout_constraintBottom_toTopOf="parent"
+            motion:layout_constraintLeft_toRightOf="@id/icon_3" />
+        <Constraint
+            android:id="@+id/icon_4"
+            android:layout_width="130dp"
+            android:layout_height="65dp"
+            motion:layout_constraintTop_toBottomOf="@+id/icon_1"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="45dp" />
+        <Constraint
+            android:id="@+id/icon_5"
+            android:layout_width="130dp"
+            android:layout_height="130dp" />
+    </ConstraintSet>
+</MotionScene>
